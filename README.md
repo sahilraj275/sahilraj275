@@ -11,7 +11,7 @@
 
 - 👨‍💻 All of my projects are available at [https://sahil-portfolio.tech](https://sahil-portfolio.tech)
 
-- 💬 Ask me about **HTML,CSS,JAVASCRIPT AND REACTJS**
+- 💬 Ask me about **HTML, CSS, JAVASCRIPT, REACTJS, MySql, AND Python **
 
 - 📫 How to reach me **work.sahilraj@gmail.com**
 
