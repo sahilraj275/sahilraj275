@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **ReactJs**
 
-- 👨‍💻 All of my projects are available at [https://sahil-portfolio.tech](https://sahil-portfolio.tech)
+- 👨‍💻 All of my projects are available at [https://sahil-portfolio.tech]([https://sahil-portfolio.tech](https://sahilraj-portfolio-sr.netlify.app/))
 
 - 💬 Ask me about **HTML, CSS, JAVASCRIPT, REACTJS, MYSQL, AND PYTHON **
 
