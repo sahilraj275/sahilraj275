@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=FFB547&center=true&vCenter=true&width=680&lines=Built+WolfHR+%E2%80%94+live+on+Play+Store%2C+50%2B+daily+users;Sales+CRM+tracking+200%2B+deals+for+30%2B+salespeople;Geofencing+%C2%B7+night+shifts+%C2%B7+approval+flows+%C2%B7+cron+jobs" alt="Typing intro" />
+</p>
+
+<p align="center">
   <a href="https://sahilraj-portfolio-sr.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0E1526?style=for-the-badge&logo=netlify&logoColor=4F8CFF" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID/"><img src="https://img.shields.io/badge/LinkedIn-0E1526?style=for-the-badge&logo=linkedin&logoColor=4F8CFF" alt="LinkedIn" /></a>
   <a href="mailto:work.sahilraj@gmail.com"><img src="https://img.shields.io/badge/Email_me-0E1526?style=for-the-badge&logo=gmail&logoColor=FFB547" alt="Email" /></a>
@@ -10,9 +14,9 @@
   <img src="https://komarev.com/ghpvc/?username=sahilraj275&style=for-the-badge&color=4F8CFF&label=Profile+views" alt="Profile views" />
 </p>
 
-<br />
+---
 
-## About me
+## 👨‍💻 About me
 
 I'm a full-stack engineer at **CSK Information and Technology**, Noida. I build web apps, mobile apps and the backends behind them, and I care most about one thing: shipping software that real people open every day.
 
@@ -22,9 +26,11 @@ I'm a full-stack engineer at **CSK Information and Technology**, Noida. I build 
 - 🎓 MCA from Chandigarh University (2022 to 2024)
 - 💬 Ask me about React, React Native, Node.js, or how to stop proxy attendance
 
-<br />
+**What I'm good at:** role-based access · approval workflows · GPS and geofencing · scheduled jobs · turning feedback into shipped features
 
-## Things I've shipped
+---
+
+## 🚀 Things I've shipped
 
 <table>
 <tr>
@@ -41,6 +47,8 @@ I'm a full-stack engineer at **CSK Information and Technology**, Noida. I build 
 - Live map of clocked-in staff and Excel reports
 - Night shifts saved as one workday; nightly jobs close forgotten punch-outs
 
+<sub>📱 Live on Google Play · 🔒 Company project, code is private</sub>
+
 </td>
 <td width="50%" valign="top">
 
@@ -54,13 +62,26 @@ I'm a full-stack engineer at **CSK Information and Technology**, Noida. I build 
 - Drag-and-drop pipeline for 140+ active opportunities, with Excel import/export
 - Cost sheet that works out project margin on its own, with an approval flow
 
+<sub>🔒 Internal company project, code is private</sub>
+
 </td>
 </tr>
 </table>
 
-<br />
+---
 
-## Tech I work with
+## 🧭 Experience
+
+| Role | Company | When |
+|---|---|---|
+| **Software Engineer** | CSK Information and Technology, Noida | May 2025 – Present |
+| Frontend Developer (UI modernization) | Freelance, remote | Mar 2025 – Apr 2025 |
+
+<sub>As a freelancer I redesigned a 12+ page IT company website: fixed mobile layouts on every screen size, sped it up, and added GSAP and Framer Motion scroll animations.</sub>
+
+---
+
+## 🧰 Tech I work with
 
 <table>
 <tr><td><b>Frontend</b></td><td><img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,materialui,html,css&theme=dark" /></td></tr>
@@ -79,9 +100,9 @@ I'm a full-stack engineer at **CSK Information and Technology**, Noida. I build 
 </td></tr>
 </table>
 
-<br />
+---
 
-## Side projects
+## 🛠️ Side projects
 
 | Project | What it is | Built with |
 |---|---|---|
@@ -90,16 +111,12 @@ I'm a full-stack engineer at **CSK Information and Technology**, Noida. I build 
 | [**Quiz WebApp**](https://github.com/sahilraj275/Quiz-WebApp) | A quiz app for practising questions in the browser | HTML, CSS, JavaScript |
 | [**Employee Management System**](https://github.com/sahilraj275/Employee_Management_System) | Add, edit and manage employee records | JavaScript |
 
-<br />
+---
 
-## On GitHub
+## 📈 On GitHub
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=sahilraj275&hide_border=true&background=0E1526&stroke=2A3654&ring=4F8CFF&fire=FFB547&currStreakNum=E6EAF2&sideNums=E6EAF2&currStreakLabel=4F8CFF&sideLabels=8A94A8&dates=8A94A8" width="80%" alt="Contribution streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sahilraj275&bg_color=0E1526&color=8A94A8&line=4F8CFF&point=FFB547&area=true&area_color=4F8CFF&title_color=E6EAF2&hide_border=true" width="100%" alt="Contribution graph" />
 </p>
 
 <p align="center">
@@ -110,8 +127,20 @@ I'm a full-stack engineer at **CSK Information and Technology**, Noida. I build 
   </picture>
 </p>
 
-<br />
+---
+
+## 🤝 Let's connect
 
 <p align="center">
-  Got a project, a role, or just a question? <a href="mailto:work.sahilraj@gmail.com"><b>work.sahilraj@gmail.com</b></a>
+  Got a project, a role, or just a question? I reply to every email.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:work.sahilraj@gmail.com"><img src="https://img.shields.io/badge/work.sahilraj@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://sahilraj-portfolio-sr.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-4F8CFF?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" /></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0E1526,50:4F8CFF,100:FFB547&height=110&section=footer" width="100%" alt="" />
 </p>
