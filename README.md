@@ -138,7 +138,7 @@ I'm a full-stack engineer at **CSK Information and Technology**, Noida. I build 
 <p align="center">
   <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:work.sahilraj@gmail.com"><img src="https://img.shields.io/badge/work.sahilraj@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://sahilraj-portfolio-sr.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-4F8CFF?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://sahil-raj-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-4F8CFF?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" /></a>
 </p>
 
 <p align="center">
