@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Sahil Raj, full-stack software engineer">
+  <defs>
+    <clipPath id="card"><rect width="1200" height="420" rx="22"/></clipPath>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4F8CFF" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFB547" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFB547" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tens"><rect x="121" y="120" width="15" height="30"/></clipPath>
+    <clipPath id="ones"><rect x="137" y="120" width="15" height="30"/></clipPath>
+    <clipPath id="maptile"><rect x="22" y="296" width="206" height="72" rx="14"/></clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .role { opacity: 0; animation: role 9s infinite both; }
+    .r2 { animation-delay: 3s; } .r3 { animation-delay: 6s; }
+    @keyframes role {
+      0% { opacity: 0; transform: translateY(12px); }
+      4% { opacity: 1; transform: translateY(0); }
+      30% { opacity: 1; transform: translateY(0); }
+      34% { opacity: 0; transform: translateY(-12px); }
+      100% { opacity: 0; transform: translateY(-12px); }
+    }
+    .toast { opacity: 0; animation: toast 8s infinite both; }
+    .t2 { animation-delay: 4s; }
+    @keyframes toast {
+      0% { opacity: 0; transform: translateX(24px); }
+      6% { opacity: 1; transform: translateX(0); }
+      42% { opacity: 1; transform: translateX(0); }
+      48% { opacity: 0; transform: translateX(0); }
+      100% { opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .role, .toast { animation: none; }
+      .r1, .t1 { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="420" fill="#0E1526"/>
+
+    <!-- faint city map behind the phone -->
+    <g stroke="#1B2540" stroke-width="2" fill="none">
+      <path d="M560 0 C640 120 700 160 820 190 S1040 260 1200 240"/>
+      <path d="M700 420 C760 300 900 260 1000 150 S1120 40 1200 20"/>
+      <path d="M620 300 L1200 330"/>
+      <path d="M1100 0 L1060 420"/>
+      <path d="M760 0 L840 420"/>
+    </g>
+    <g stroke="#162038" stroke-width="1">
+      <path d="M600 60 H1200 M600 120 H1200 M600 360 H1200 M940 0 V420 M1160 0 V420 M680 0 V420"/>
+    </g>
+    <circle cx="985" cy="230" r="300" fill="url(#glow)"/>
+    <circle cx="160" cy="420" r="260" fill="url(#glow2)"/>
+
+    <!-- left: name and roles -->
+    <text x="72" y="128" class="sans" font-size="22" fill="#8A94A8">Hi, I'm</text>
+    <text x="68" y="222" class="sans" font-size="96" font-weight="800" letter-spacing="-3" fill="#E6EAF2">Sahil Raj</text>
+
+    <g class="sans" font-size="30" font-weight="600" fill="#4F8CFF">
+      <text x="72" y="276" class="role r1">Full-stack software engineer</text>
+      <text x="72" y="276" class="role r2">Web, mobile and backend</text>
+      <text x="72" y="276" class="role r3">I ship apps teams use every day</text>
+    </g>
+
+    <text x="72" y="334" class="sans" font-size="18" fill="#8A94A8">React, React Native and Node.js, from idea to Play Store.</text>
+    <text x="72" y="362" class="sans" font-size="18" fill="#8A94A8">Based in New Delhi, India.</text>
+
+    <!-- right: phone running a punch-in app -->
+    <g transform="translate(860 40)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+        <rect width="250" height="400" rx="38" fill="#070B16" stroke="#2A3654" stroke-width="2"/>
+        <rect x="10" y="10" width="230" height="380" rx="29" fill="#F5F7FB"/>
+        <rect x="95" y="19" width="60" height="9" rx="4.5" fill="#070B16"/>
+
+        <text x="26" y="56" class="sans" font-size="15" font-weight="700" fill="#0E1526">WolfHR</text>
+        <circle cx="216" cy="51" r="11" fill="#4F8CFF"/>
+        <text x="216" y="55.5" class="sans" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">S</text>
+        <text x="26" y="79" class="sans" font-size="12" fill="#5B6478">Good morning, Sahil</text>
+
+        <!-- live work timer -->
+        <rect x="22" y="92" width="206" height="64" rx="14" fill="#0E1526"/>
+        <text x="36" y="112" class="sans" font-size="10.5" fill="#8A94A8">Working time</text>
+        <circle cx="210" cy="108" r="4" fill="#FFB547">
+          <animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/>
+        </circle>
+        <g class="mono" font-size="26" font-weight="600" fill="#E6EAF2" text-anchor="middle">
+          <text x="44" y="143">0</text><text x="60" y="143">4</text><text x="73" y="141">:</text>
+          <text x="86" y="143">1</text><text x="102" y="143">2</text><text x="115" y="141">:</text>
+          <g clip-path="url(#tens)">
+            <g>
+              <animateTransform attributeName="transform" type="translate" calcMode="discrete" dur="60s" repeatCount="indefinite"
+                values="0 0;0 -30;0 -60;0 -90;0 -120;0 -150"/>
+              <text x="128" y="143">0</text><text x="128" y="173">1</text><text x="128" y="203">2</text>
+              <text x="128" y="233">3</text><text x="128" y="263">4</text><text x="128" y="293">5</text>
+            </g>
+          </g>
+          <g clip-path="url(#ones)">
+            <g>
+              <animateTransform attributeName="transform" type="translate" calcMode="discrete" dur="10s" repeatCount="indefinite"
+                values="0 0;0 -30;0 -60;0 -90;0 -120;0 -150;0 -180;0 -210;0 -240;0 -270"/>
+              <text x="144" y="143">0</text><text x="144" y="173">1</text><text x="144" y="203">2</text>
+              <text x="144" y="233">3</text><text x="144" y="263">4</text><text x="144" y="293">5</text>
+              <text x="144" y="323">6</text><text x="144" y="353">7</text><text x="144" y="383">8</text>
+              <text x="144" y="413">9</text>
+            </g>
+          </g>
+        </g>
+
+        <!-- punch button with pulse -->
+        <circle cx="125" cy="228" r="46" fill="none" stroke="#FFB547" stroke-width="2">
+          <animate attributeName="r" values="46;72" dur="2.4s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".7;0" dur="2.4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="125" cy="228" r="46" fill="none" stroke="#FFB547" stroke-width="2">
+          <animate attributeName="r" values="46;72" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".7;0" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="125" cy="228" r="46" fill="#FFB547"/>
+        <text x="125" y="226" class="sans" font-size="13" font-weight="700" fill="#0E1526" text-anchor="middle">Punch out</text>
+        <text x="125" y="243" class="sans" font-size="10" fill="#5A4210" text-anchor="middle">In since 9:28 AM</text>
+
+        <!-- geofence map tile -->
+        <g clip-path="url(#maptile)">
+          <rect x="22" y="296" width="206" height="72" fill="#E4EBF7"/>
+          <path d="M22 318 H228 M22 350 H228 M48 296 V368 M150 296 V368" stroke="#FFFFFF" stroke-width="6"/>
+          <circle cx="76" cy="332" r="26" fill="#4F8CFF" fill-opacity=".14" stroke="#4F8CFF" stroke-width="1.5" stroke-dasharray="4 3"/>
+          <circle cx="76" cy="332" r="6" fill="none" stroke="#4F8CFF" stroke-width="2">
+            <animate attributeName="r" values="6;18" dur="1.8s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="1;0" dur="1.8s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="76" cy="332" r="6" fill="#4F8CFF" stroke="#fff" stroke-width="2"/>
+          <rect x="108" y="312" width="114" height="42" rx="8" fill="#FFFFFF"/>
+          <text x="116" y="329" class="sans" font-size="10.5" font-weight="700" fill="#0E1526">Inside office area</text>
+          <text x="116" y="345" class="sans" font-size="10" fill="#1F8A5B">Location verified</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- notifications from features he built -->
+    <g class="toast t1">
+      <rect x="592" y="66" width="290" height="60" rx="14" fill="#172038" stroke="#2A3654"/>
+      <circle cx="622" cy="96" r="14" fill="#1F8A5B"/>
+      <path d="M615 96 l5 5 l9 -10" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="646" y="91" class="sans" font-size="14" font-weight="700" fill="#E6EAF2">Leave approved</text>
+      <text x="646" y="110" class="sans" font-size="12" fill="#8A94A8">Manager and HR both signed off</text>
+    </g>
+    <g class="toast t2">
+      <rect x="592" y="66" width="290" height="60" rx="14" fill="#172038" stroke="#2A3654"/>
+      <circle cx="622" cy="96" r="14" fill="#4F8CFF"/>
+      <circle cx="622" cy="96" r="7" fill="none" stroke="#fff" stroke-width="2"/>
+      <path d="M622 92 v4 l3 2" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <text x="646" y="91" class="sans" font-size="14" font-weight="700" fill="#E6EAF2">Night shift saved</text>
+      <text x="646" y="110" class="sans" font-size="12" fill="#8A94A8">10 PM to 6 AM counted as one day</text>
+    </g>
+  </g></svg>
